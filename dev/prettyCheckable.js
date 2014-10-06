@@ -130,7 +130,7 @@
 
             if (elLabelId !== undefined) {
 
-                var elLabel = $('label[for=' + elLabelId + ']');
+                var elLabel = $('label[for=\'' + elLabelId + '\']');
 
                 if (elLabel.length > 0) {
 
@@ -225,7 +225,7 @@
 
             if (elLabelId !== undefined) {
 
-                var elLabel = $('label[for=' + elLabelId + ']');
+                var elLabel = $('label[for=\'' + elLabelId + '\']');
 
                 if (elLabel.length > 0) {
 
